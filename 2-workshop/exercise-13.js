@@ -20,6 +20,18 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let fib = [];
+  fib[0] = 0;
+  fib[1] = 1;  
+  for (i = 2; i < 50; i++) {
+    
+ fib.push(fib[i] = fib[i - 2] + fib[i - 1]);
+    
+    
+  }
+
+console.log(fib[49]);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
